@@ -1,4 +1,4 @@
-package com.redhat.qcon.insult
+package com.redhat.qcon.insult.services
 
 import io.vertx.core.Future
 import io.vertx.core.Vertx
