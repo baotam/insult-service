@@ -126,6 +126,11 @@
             <version>0.10.3</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.spockframework</groupId>
+            <artifactId>spock-core</artifactId>
+            <version>1.0-groovy-2.4</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>insult-service</finalName>
