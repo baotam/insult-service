@@ -1,5 +1,7 @@
 package com.redhat.qcon.insult.services
 
+import com.redhat.qcon.insult.MainVerticle
+
 import io.vertx.core.Future
 import io.vertx.core.Vertx
 import spock.lang.Specification

@@ -220,10 +220,6 @@ pipeline {
   }
   stages {
     stage('Quality And Security') {
-     input {
-            message "DEBUGGING?"
-            ok "DONE"
-          }
       parallel {
         stage('OWASP Dependency Check') {
           steps {
